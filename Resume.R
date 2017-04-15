@@ -30,7 +30,7 @@ VisualResume(
                                 "Won prize for best talk at Young Researchers Using Statistics Symposium",
                                 "Mancini, F., Coghill, G.M., Lusseau, D. (2017). Using qualitative models to define sustainable \n management for the commons in data-poor conditions. Env.Sci.&Pol., 67, 52-60",
                                 "Launched Aberdeen Study Group")),
-  interests = list("coding" = c(rep("R", 30), rep("GitHub", 10), rep("html", 2)),
+  interests = list("coding" = c(rep("R", 30), rep("Git", 10), rep("html", 2), rep("Python", 2)),
                    "statistics" = c(rep("GLMs", 10), rep("GAMs", 10), rep("Time Series", 3), rep("Spatial Analysis",5)),
                    "leadership" = c(rep("Motivation", 30), rep("Decision Making", 5), rep("Creativity", 20)),
                    "Teaching" = c(rep("Coding", 20), rep("Statistics", 20), rep("Ecology",30))),
