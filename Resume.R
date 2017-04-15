@@ -1,19 +1,19 @@
 # Make a resume with VisualResume
 # Francesca Mancini
-# 08/04/2017
+# 15/04/2017
 
-library(VisualResume)
+source("VisualResume_modtext.R")
 
 VisualResume(
   titles.left = c("Francesca Mancini", 
                   "Interdisciplinary conservation scientist", 
                   "*Built with love in R using the VisualResume package: www.ndphillips.github.io/VisualResume"),
   titles.left.cex = c(3, 2.5, 1),
-  titles.right.cex = c(3, 2.5, 1),
+  titles.right.cex = c(3, 2.5, 2),
   titles.right = c("https://francescamancini.github.io", 
                    "r03fm14@abdn.ac.uk", 
-                   "Full Resume: "),
-  timeline.labels = c("Education", "Employment and other cool things"),
+                   "@Frances_Mancini"),
+  timeline.labels = c("Education", "Volunteering and other cool things"),
   timeline = data.frame(title = c("La Sapienza University", "Cardigan Bay Marine Wildlife Centre",
                                   "University of Aberdeen", "University of Aberdeen",
                                   "Aberdeen Study Group"),
@@ -23,12 +23,12 @@ VisualResume(
                         end = c(2012.2, 2013.6, 2014.7, 2018, 2018),
                         side = c(1, 0, 1, 1, 0)),
   milestones = data.frame(title = c("BSC", "MRes"),
-                          sub = c("Biology", "Applied Marine and Fisheries Ecology"),
+                          sub = c("Biology", "Marine and Fisheries Ecology"),
                           year = c(2012, 2014.7)),
   events = data.frame(year = c(2014.7, 2016, 2017, 2017.3),
                       title = c("Won Lindsay Laird Prize for academic achievement",
                                 "Won prize for best talk at Young Researchers Using Statistics Symposium",
-                                "Mancini, F., Coghill, G.M., Lusseau, D. (2017). Using qualitative models to define sustainable management \n for the commons in data-poor conditions. Env.Sci.&Pol., 67, 52-60",
+                                "Mancini, F., Coghill, G.M., Lusseau, D. (2017). Using qualitative models to define sustainable \n management for the commons in data-poor conditions. Env.Sci.&Pol., 67, 52-60",
                                 "Launched Aberdeen Study Group")),
   interests = list("coding" = c(rep("R", 30), rep("GitHub", 10), rep("html", 2)),
                    "statistics" = c(rep("GLMs", 10), rep("GAMs", 10), rep("Time Series", 3), rep("Spatial Analysis",5)),
